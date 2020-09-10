@@ -161,7 +161,7 @@ const Basket = ({
               localStorage.setItem(
                 itemId,
                 JSON.stringify({
-                  faster: false,
+                  faster: faster,
                   time: time,
                   selfService: !selfService,
                 })
@@ -178,7 +178,7 @@ const Basket = ({
               localStorage.setItem(
                 itemId,
                 JSON.stringify({
-                  faster: false,
+                  faster: faster,
                   time: time,
                   selfService: !selfService,
                 })
